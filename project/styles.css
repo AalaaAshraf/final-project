@@ -1,0 +1,132 @@
+body {
+    background: rgb(0, 13, 60, 1);
+    
+    margin: 0;
+    font-family: "Merriweather", serif;
+    color: #fff;
+  }
+  
+  
+  h1 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 3em;
+    margin: 2em 1rem;
+  }
+  
+  @media only screen and (min-width: 40em) {
+    h1 {
+      font-size: 7em;
+      margin: 2em 4rem 1em;
+    }
+  }
+  
+  h2 {
+    border-bottom: 1px solid #cc1;
+    font-family: "Oxygen", Sans-Serif;
+    font-size: 3em;
+    color: #fff;
+  }
+  
+  p {
+    line-height: 1.6em;
+    color: #eee;
+  }
+  
+  main {
+    margin: 10vh 1em 10vh;
+  }
+  
+  .main-hero {
+    min-height: 40vh;
+    padding-top: 3em;
+    
+  }
+  
+  section {
+    position: relative;
+    min-height: 90vh;
+    
+  }
+  
+  
+  .navbar__menu #button {
+    position: absolute;
+    top: 100%;
+    border-radius: 0px 39px 0px 20px;
+    width: 10em;
+    height: 2.8em;
+    outline: 0px;
+    border: 0px;
+    font-size: 18.5px;
+    font-weight: bold;
+    background-color: #115a64;
+    color: white;
+    
+  }
+  .navbar__menu #button:hover {
+    background-color: #3a7d86;
+    color: rgb(255, 255, 255);
+  }
+  .navbar__menu ul {
+    padding-left: 0;
+    margin: 0;
+    text-align: right;
+  }
+  
+  .navbar__menu li {
+    display: inline-block;
+  }
+  .navbar__menu .menu__link {
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .navbar__menu .menu__link:hover {
+    background: #570847;
+    color: #fff;
+    
+  }
+  
+  
+  .navbar__menu .active-link {
+ 
+    transition: ease 0.3s all;
+  }
+  
+  
+  .page__header {
+    background: rgb(193, 14, 166);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+  }
+  
+  
+ 
+ 
+  
+  @media only screen and (min-width: 35em) {
+    .landing__container {
+      max-width: 50em;
+      padding: 4em;
+    }
+  }
+  
+  
+  
+ 
+  
+  
+  @media only screen and (max-width: 39.5em) {
+    .navbar__menu #button {
+      top: 100%;
+      font-size: 17px;
+      width: 7.5em;
+      height: 1.8em;
+    }
+  }
+ 
